@@ -1,0 +1,22 @@
+{
+  "name": "bin2mod3",
+  "version": "1.0.0",
+  "description": "uses binary number to return the remainder when divided by 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starkraving/bin2mod3.git"
+  },
+  "author": "Mike Ritchie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starkraving/bin2mod3/issues"
+  },
+  "homepage": "https://github.com/starkraving/bin2mod3#readme",
+  "dependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
