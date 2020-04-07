@@ -4,7 +4,7 @@
   "description": "uses binary number to return the remainder when divided by 3",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
     "url": "https://github.com/starkraving/bin2mod3/issues"
   },
   "homepage": "https://github.com/starkraving/bin2mod3#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "jasmine": "^3.5.0"
   }
 }
