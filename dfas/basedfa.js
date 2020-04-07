@@ -26,19 +26,6 @@ class BaseDFA {
                 || (inputs.filter(i => this.possibleInputs.includes(i))).length !== inputs.length
             ) {
 
-                if ( !Array.isArray(inputs) ) console.log('inputs is not array');
-                if ( !Array.isArray(this.possibleStates) ) console.log('possibleStates is not array');
-                if ( !Array.isArray(this.possibleInputs) ) console.log('possibleInputs is not array');
-                if ( typeof this.initialState !== 'string' ) console.log('initialState is not a string');
-                if ( !Array.isArray(this.allowedStates) ) console.log('allowedStates is not array');
-                if ( Array.isArray(this.possibleStates) && (this.possibleStates.filter(state => typeof state !== 'string')).length > 0 )
-                    console.log('possibleStates contains non string');
-                if ( !this.possibleStates.includes(this.initialState) ) console.log('initialState is not a possibleState');
-                if ( Array.isArray(this.allowedStates) && (this.allowedStates.filter(s => this.possibleStates.includes(s))).length === 0 )
-                    console.log('allowedStates not in possibleStates');
-                if ( Array.isArray(inputs) && (inputs.filter(i => this.possibleInputs.includes(i))).length !== inputs.length )
-                    console.log('inputs contains not possibleInputs');
-
             return null;
         }
 
