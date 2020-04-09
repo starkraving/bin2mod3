@@ -9,8 +9,8 @@ class Bin2Mod3 extends BaseDFA {
 
     possibleStates = [ Bin2Mod3.STATE0, Bin2Mod3.STATE1, Bin2Mod3.STATE2 ];
     possibleInputs = [ Bin2Mod3.INPUT0, Bin2Mod3.INPUT1 ];
-    initialState = Bin2Mod3.STATE0;
-    allowedStates = [ Bin2Mod3.STATE0, Bin2Mod3.STATE1, Bin2Mod3.STATE2 ];
+    initialState   = Bin2Mod3.STATE0;
+    allowedStates  = [ Bin2Mod3.STATE0, Bin2Mod3.STATE1, Bin2Mod3.STATE2 ];
 
     reducer(intlState, input) {
         switch( intlState ) {
